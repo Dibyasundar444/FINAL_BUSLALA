@@ -120,7 +120,7 @@ const TicketScreen = () => {
                     {
                         loading ? <ActivityIndicator color="blue" style={{marginTop:40}} size={40} />
                         :
-                        data.map((item,index)=>(
+                        data.reverse().map((item,index)=>(
                             <View key={index}>
                             {
                                 item.status === "completed" ? 

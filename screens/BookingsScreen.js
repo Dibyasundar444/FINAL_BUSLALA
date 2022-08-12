@@ -162,7 +162,7 @@ const BookingsScreen = ({route}) => {
                         </View> */}
                         {
                             // isData == true ? 
-                            data.map((item,index)=>(
+                            data.reverse().map((item,index)=>(
                                 <View key={index}>
                                     <Text style={{color:"gray",textAlign:"center"}}>Payment {item.payment_status}</Text>
                                     <View style={styles.booking}>

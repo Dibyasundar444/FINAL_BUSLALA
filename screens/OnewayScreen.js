@@ -130,8 +130,8 @@ const OnewayScreen = () => {
     var roundTripPostData = {
         "source": !click ? from : to, 
         "destination": !click ? to : from, 
-        "deptDate": deptDate2, 
-        "returnDate": returnDate
+        "deptDate": "2022-06-20", 
+        "returnDate": "2022-06-21"
     };
 
     const busesHandler1=()=>{
